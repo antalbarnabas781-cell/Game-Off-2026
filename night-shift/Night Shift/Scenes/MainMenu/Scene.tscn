@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://xwvskj16nioh"]
+
+[ext_resource type="Script" uid="uid://dj5lrtuj5pqbw" path="res://Night Shift/Scripts/System/PlayerController.gd" id="1_t6rsq"]
+
+[node name="PlayerRig" type="Node3D" unique_id=1121354787]
+script = ExtResource("1_t6rsq")
+
+[node name="LookPivot" type="Node3D" parent="." unique_id=2001692629]
+
+[node name="Camera3D" type="Camera3D" parent="LookPivot" unique_id=264275161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+current = true
